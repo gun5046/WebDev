@@ -16,5 +16,5 @@ HTML은 HyperText Markup Language의 약자로, 웹 브라우저에 내용을 �
   + <head>에 자주 들어가는 엘리먼트들은 어떤 것이 있고, 어떤 역할을 할까요?
   + 시맨틱 태그는 무엇일까요?
     + 시맨틱 엘리먼트를 사용하면 어떤 점이 좋을까요?
-    + <section>과 <div>, <header>, <footer>, <article> 엘리먼트의 차이점은 무엇인가요?
+    + "<section>"과 "<div>", "<header>", "<footer>", "<article>" 엘리먼트의 차이점은 무엇인가요?
   + 블록 레벨 엘리먼트와 인라인 엘리먼트는 어떤 차이가 있을까요?
