@@ -4,6 +4,9 @@
 
 + CSS를 HTML에 적용하는 세 가지 방법은 무엇일까요?
   ```
+    External css
+    Internal css
+    
   ```
   + 세 가지 방법 각각의 장단점은 무엇일까요?
   ```
