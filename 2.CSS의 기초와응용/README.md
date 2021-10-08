@@ -44,19 +44,49 @@
 + CSS의 박스모델은 무엇일까요? 박스가 화면에서 차지하는 크기는 어떻게 결정될까요?
   ```
     브라우저의 렌더링 엔진은 표준 CSS 기본 박스 모델에 따라 각각의 요소를 사각형 박스로 표현한다.
-    
-
+    하나으 박스는 4영역으로 나누어진다. 각 영역을 Content 영역, Padding 영역, Border 영역, Margin 영역이라 한다.
   ```
   ![asdafasf](https://user-images.githubusercontent.com/48385816/136521692-3646121b-9d6b-4eb4-a24f-ad2de8957f45.png)
-  <br/>
-+ float 속성은 왜 좋지 않을까요?
+  
   ```
+    Content area - 영역글이나 이미지, 비디오 등 요소의 실제 내용을 포함한다. box-sizing 속성의 값이 기본값인 content-box 일 경우
+                   width, height, max-height, max-width, min-height, min-width 속성으로 content 박스의 사이즈를 지정할 수 있다.
+  
+    Padding area - Content area를 둘러싼 영역, 안쪽 여백.
+                   padding, padding-top, padding-bottom, padding-right, padding-left 속성 값으로 사이즈 지정.
+                   length(px, em, pt,cm 등)과 %을 속성 값으로 넣을 수 있다.
+                   padding은 속성 값으로 여러개를 둘 수 있다.
+                   
+                   1개 : padding = 1px; -> top, bottom, right, left = 1px
+                   2개 : padding = 1px, 2em; -> top, bottom = 1px / right, left = 2em
+                   3개 : padding = 1px, 2em, 2px; -> top = 1px / right, left = 2em / bottom = 2px
+                   4개 : padding = 1px, 2em, 2px, 4em -> top = 1px / right = 2em / bottom = 2px / left = 3em
+                   
+    Border area - Padding area를 둘러싼 영역, 경계선.
+                  padding과 같이 top, bottom, left, right 속성과 color, style, radius 등을 조합하여 사용할 수 있다.
+                  
+                                             size style color
+                  기본 Border 사용 - border = 4px solid brown;
+    
+    Margin area - Border area를 둘러싼 영역, 바깥 여백.
+                  Padding 과 동일하게 사이즈 지정 가능.
+                  
+  ```
+  <br/>
++ float 속성은 무엇일까요?
+  ```
+    float 속성은 레이아웃에 관련된 속성이다. 특정 요소를 떠있게, 흐르도록, 부유하게 하도록 하는 속성.
+    속성값으로는 right, left가 올 수 있고, 블럭 위치에 따라 알맞은 값을 넣으면 된다.
+    다시 말해, float 속성을 사용해 박스를 왼쪽(left) 또는 오른쪽(right)으로 "부유"시키는 레이아웃 기법이다.
+    여기서 '부유하다' 라는 의미는 요소가 기본적인 문서 배치의 흐름에서 벗어나 요소의 모서리가 페이지의 왼쪽이나 오른쪽으로 이동하는 것을 말함.
   ```
   <br/>
 + Flexbox(Flexible box)와 CSS Grid의 차이와 장단점은 무엇일까요?
   ```
+    
   ```
   <br/>
 + CSS의 비슷한 요소들을 어떤 식으로 정리할 수 있을까요?
   ```
+  
   ```
