@@ -44,9 +44,10 @@
 + CSS의 박스모델은 무엇일까요? 박스가 화면에서 차지하는 크기는 어떻게 결정될까요?
   ```
     브라우저의 렌더링 엔진은 표준 CSS 기본 박스 모델에 따라 각각의 요소를 사각형 박스로 표현한다.
-    ![asdafasf](https://user-images.githubusercontent.com/48385816/136521692-3646121b-9d6b-4eb4-a24f-ad2de8957f45.png)
+    
 
   ```
+  ![asdafasf](https://user-images.githubusercontent.com/48385816/136521692-3646121b-9d6b-4eb4-a24f-ad2de8957f45.png)
   <br/>
 + float 속성은 왜 좋지 않을까요?
   ```
