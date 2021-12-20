@@ -24,7 +24,7 @@
 
 
 ```
-  Git은 분산 버전 관리 시스템(Distributed Version Control System)(이하 DVCS)
+  Git은 분산 버전 관리 시스템(Distributed Version Control System)(이하 DVCS)에 속한다.
   형상관리 시스템은 두가지로 구분되는데 DVCS와 중앙집중식 버전관리(Centralized Version Control System)(이하 CVCS)
   이 그것이다.
   CVCS : Central server에서 코드를 가져오면 코드의 변경기록(commit)들은 가져오지 않고 중앙서버의 파일만을 받아온다.
